@@ -334,7 +334,7 @@ def generate_subtitles(record_name: str, ass_filename: str, sub_format: str = 's
 
 
 def adjust_max_request() -> None:
-    global max_request, error_count, pre_max_request, error_window
+    global max_request, error_count, pre_max_request
     preset = max_request
 
     while True:
